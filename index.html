@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets\css\swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets\css\styles.css" />
+    <link rel="icon" href="assets\img\22.png" type="image/x-icon">
+
+
+    <title>Chadi kammoun</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Chadi kammoun</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>About Me
+
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Experience
+
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Skills
+              </a>
+            </li>
+
+
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact me
+              </a>
+            </li>
+
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+              <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a 
+            href="https://github.com/chadikammoun"
+            target="_blank"
+            class="home__social-icon"
+            >
+            <i class="uil uil-github-alt"></i>
+            </a>
+            
+            <a
+              href="https://www.linkedin.com/in/chadi-kammoun/"
+              target="_blank"
+              class="home__social-icon"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <a
+              href="https://www.behance.net/chadi-kammoun"
+              target="_blank"
+              class="home__social-icon"
+            >
+            <i class="uil uil-behance-alt"></i>
+                      </a>
+
+
+          </div>
+          <img src="https://ik.imagekit.io/o3k0d5prcw/test.png" alt="" class="about__img">
+
+
+          <div class="home__data">
+            <h1 class="home__title">Hi, i'm Chadi kammoun</h1>
+            <h3 class="home__subtitle">Odoo Developer | Web Developer | Graphic Design</h3>
+            <p class="home__description">
+              Highly skilled and versatile developper and  Graphic Designer 
+              with years of experience
+            </p>
+            <a href="assets\img\Chadi Kammoun_page-0001.jpg" class="button button--flex" target="_blank">
+              Download CV <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name"></span>
+            Scroll down<i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+      <div>
+        <audio  id="audio">
+          <source src="assets\img\nujabes.mp3" type="audio/mpeg">
+        </audio>
+      
+        <i class="uil-music" id="playPauseBTN" onclick="playPause()"></i>
+      </div>
+      
+      
+      
+    </section>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+           <span class="section__subtitle">Introduction</span>
+            <div class="container grid">
+            <p class="about__description">I am a highly skilled Odoo Developer specializing in custom modules and addons to meet unique business needs. With a strong foundation in web development and graphic design, I ensure both functionality and visual appeal in every project. Passionate about solving complex problems through customized Odoo solutions, I aim to enhance business efficiency and user experiences. Always seeking new challenges, I am committed to innovation and excellence. Let's connect and create something impactful together.</p>
+            </div>
+      </section>
+
+
+
+
+
+
+
+
+
+      <section id="experience">
+
+      <h2 class="section__title">Experience</h2>
+      <div class="process-wrapper">
+      <div id="progress-bar-container">
+        <ul>
+          <li class="step step01 active"><div class="step-inner">GRAPHIC DESIGNER</div></li>
+          <li class="step step02"><div class="step-inner">APP DEVELOPER</div></li>
+          <li class="step step03"><div class="step-inner">ODOO DEVELOPER</div></li>
+          <li class="step step04"><div class="step-inner">TESTIMONIALS PART</div></li>
+          <li class="step step05"><div class="step-inner">OUR LOCATIONS</div></li>
+        </ul>
+        
+        <div id="line">
+          <div id="line-progress"></div>
+        </div>
+      </div>
+      
+      <div id="progress-content-section">
+        <div class="section-content discovery active">
+          <h2>2018 - 2024</h2>
+          <p>
+            With a keen eye for detail and proficiency in industry-standard tools like Photoshop and Illustrator, I create designs that are both creative and effective. My work showcases a diverse range of projects, reflecting my versatility and passion for design.<br>
+            • Created visually stunning designs for print and digital media.<br>
+            • Developed branding and marketing materials for various clients.<br>
+            • Designed and optimized digital content for websites and social media.</p>
+        </div>
+        
+        <div class="section-content strategy">
+          <h2>2022 - 2023</h2>
+          <p>• Developed and launched several apps, available for download.<br>
+            • Created user-friendly and visually appealing interfaces.<br>
+            • Focused on providing seamless user experiences.<br>
+            • Implemented innovative features to meet user needs.</p>
+        </div>
+        
+        <div class="section-content creative">
+          <h2>2024 - PRESENT</h2>
+          <p>• Developed a custom Odoo module for digitizing pediatric dentistry services.<br>
+            • Integrated ERP solutions to streamline and optimize business processes.<br>
+            • Employed modern work methodologies such as OIM and Scrum for efficient project management.<br>
+            • Collaborated with a cross-functional team to ensure successful module implementation.<br>
+            • Deployed the module on OVH Cloud, ensuring robust and scalable infrastructure.<br>
+            • Implemented SSL to secure user data and maintain privacy.<br>
+            • Created and delivered presentations and instructional videos for end-users to facilitate easy adoption and usage of the module.</p>
+        </div>
+        
+        <div class="section-content production">
+          <h2>TESTIMONIALS NOW</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+        </div>
+        
+        <div class="section-content analysis">
+          <h2>OUR LOCATIONS</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+        </div>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+       <script>
+          
+          $(".step").click( function() {
+        $(this).addClass("active").prevAll().addClass("active");
+        $(this).nextAll().removeClass("active");
+      });
+      
+      $(".step01").click( function() {
+        $("#line-progress").css("width", "3%");
+        $(".discovery").addClass("active").siblings().removeClass("active");
+      });
+      
+      $(".step02").click( function() {
+        $("#line-progress").css("width", "25%");
+        $(".strategy").addClass("active").siblings().removeClass("active");
+      });
+      
+      $(".step03").click( function() {
+        $("#line-progress").css("width", "50%");
+        $(".creative").addClass("active").siblings().removeClass("active");
+      });
+      
+      $(".step04").click( function() {
+        $("#line-progress").css("width", "75%");
+        $(".production").addClass("active").siblings().removeClass("active");
+      });
+      
+      $(".step05").click( function() {
+        $("#line-progress").css("width", "100%");
+        $(".analysis").addClass("active").siblings().removeClass("active");
+      });
+      
+       
+          </script>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+      <!-- Projects -->
+  <section id="projects" class="project-container container2">
+    <div class="content-text">
+      <h2>Projects</h2>
+      <p>Check out some of my personal and paid projects</p>
+    </div>
+
+    <article class="project">
+
+           <!-- Porject 1 -->
+     <div href="" class="card">
+      <div class="project-info">
+        <div class="project-bio">
+          <h3>Service OPP</h3>
+          <p>Odoo ERP, Python, XML, JavaScript</p>
+        </div>
+        
+        <div class="project-link">
+          <a href="https://www.youtube.com/watch?v=JdosrTTW7MM&t=9s" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://fr.slideshare.net/slideshow/rapport-projet-erp-plateforme-odoo-16-pfe-licence/270234005" target="_blank"><i class="fas fa-solid fa-file-pdf"></i></a>
+        </div>
+      </div>
+    </div>
+      <!-- Project 1 -->
+      <div href="" class="card" onclick="togglepopup('popup1')">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>BookEra</h3>
+            <p>Flutter, Firebase</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://github.com/chadikammoun/Book_era.github.io" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.mediafire.com/file/nvletr0jd8be0yv/Book-era.apk/file" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div href="" class="card" onclick="togglepopup('popup2')">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Cosmos</h3>
+            <p>Flutter</p>
+          </div>
+
+          <div class="project-link" >
+            <a href="https://github.com/chadikammoun/cosmos.github.io" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.mediafire.com/file/k3spjgql2p6jlhk/Cosmos.apk/file" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Porject 3 -->
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Web portfolio</h3>
+            <p>HTml, Css, JavaScript</p>
+          </div>
+
+          <div class="project-link">
+            <a href="https://github.com/chadikammoun" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+<!-- Project 4 -->
+<a href="designs.html" class="card">
+  <div class="project-info">
+      <div class="project-bio">
+          <h3>Graphic Design</h3>
+          <p>Photoshop, Illustrator</p>
+      </div>
+  </div>
+</a>
+
+  </article>
+
+  </section>
+
+
+      <!--==================== SKILLS ====================-->
+         <section class="services container10" id="skills">
+          <div class="content-text">
+            <h2>Skills</h2>
+            <p>My technical level</p>
+          </div>
+          <div class="row">
+
+            <div class="item">
+              <h2>Odoo Development</h2>
+              <div class="icons">
+                  <div class="icon"><img src="assets\img\python.png" alt="Photoshop"></div>
+                  <div class="icon"><img src="assets\img\xml.png" alt="Illustrator"></div>
+                  <div class="icon"><img src="assets\img\postgre.png" alt="premiere-pro"></div>
+                  <div class="icon"><img src="assets\img\erp.png" alt="Lightroom"></div>
+              </div>
+          </div>
+
+            <div class="item">
+              <h2>Web development</h2>
+              <div class="icons">
+                <div class="icon"><img src="assets\img\html-5.png" alt="Html"></div>
+                <div class="icon"><img src="assets\img\css-3.png" alt="Css"></div>
+                <div class="icon"><img src="assets\img\js.png" alt="js"></div>
+              </div>
+              </div>
+
+
+
+            <div class="item">
+                <h2>Graphic Design</h2>
+                <div class="icons">
+                    <div class="icon"><img src="assets\img\photoshop.png" alt="Photoshop"></div>
+                    <div class="icon"><img src="assets\img\illustrator.png" alt="Illustrator"></div>
+                    <div class="icon"><img src="assets\img\premiere-pro.png" alt="premiere-pro"></div>
+                    <div class="icon"><img src="assets\img\photoshop-lightroom.png" alt="Lightroom"></div>
+                    <div class="icon"><img src="assets\img\after-effects.png" alt="After Effects"></div>
+                </div>
+            </div>
+            
+          </div>
+      </section>
+      <section id="contact">
+
+      <!--==================== CONTACT ME ====================-->
+        <h2 class="section__title">Contact me</h2>
+        <span class="section__subtitle2">Get in touch</span>
+        <div class="contact-form">
+          <div class="ccontainer">
+              <div class="main">
+                  <div class="ccontent">
+                    <h2>For more inquiries please insert your details below:</h2>
+                      <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                        <input type="hidden" name="access_key" value="8e65d93b-0b5d-4802-bf01-66ec644d13f1">
+                          <input type="text" name="name" placeholder="Enter Your Name" required="required" class="gras">
+                        
+                          <input type="email" name="name" placeholder="Enter Your Email" required="required" class="gras">
+                          <textarea name="message" placeholder="Your Message" required="required" class="gras"></textarea>                   
+                          <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+                      </form>
+                  </div>
+                  <div class="form-img">
+                      <img src="assets\img\bg1.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div> 
+      </section>
+
+      <div class="popups" id="popup1">
+        <div class="overlay1" onclick="togglepopup('popup1')"></div>
+        <div class="contents"> 
+            <div class="closebtn" onclick="togglepopup('popup1')">&times;</div>
+            <h1>Book-era</h1>
+            <br>
+            <p class="about__description">Welcome to Book Era! Immerse yourself in the world of literature and embark on a captivating journey through the realms of knowledge and imagination. This sleek and intuitive Flutter application invites you to explore a vast library of books spanning multiple genres. Dive into rich narratives, discover insightful details about authors and their works, and track your reading progress with ease. Book Era is your gateway to a world of literary exploration and enlightenment.</p>
+            
+            <h2>Features</h2>
+            <br>
+            <ul class="about__description">
+              <li><strong>User Authentication:</strong> Users can log in to their personal accounts securely.</li>
+              
+              <li><strong>Book Search:</strong> Search for books by genre and explore a vast library of titles.</li>
+              
+              <li><strong>Book Details:</strong> Access detailed information about books, including summaries, reviews, and author information.</li>
+              
+              <li><strong>Reading Progress:</strong> Track your reading progress for each book and set reading goals.</li>
+              
+              <li><strong>Intuitive Design:</strong> Enjoy a sleek and user-friendly interface for seamless navigation.</li>
+            </ul>
+            
+        </div>
+      </div>
+
+
+    <div class="popups" id="popup2">
+      <div class="overlay1" onclick="togglepopup('popup2')"></div>
+      <div class="contents"> 
+          <div class="closebtn" onclick="togglepopup('popup2')">&times;</div>
+          <h1>Cosmos: A Space Odyssey</h1>
+          <br>
+<p class="about__description">Welcome to Cosmos: A Space Odyssey! Explore the wonders of the universe and embark on an intergalactic journey through more than 20 mesmerizing galaxies. This Flutter application is designed to ignite your curiosity about the cosmos and unravel the mysteries of outer space.</p>
+
+<h2>Features</h2>
+<br>
+<ul class="about__description">
+  <li><strong>Galaxy Search:</strong> Dive into a vast collection of over 20 galaxies and discover their unique characteristics, stunning visuals, and intriguing facts.</li>
+  
+  <li><strong>Interactive Interface:</strong> Immerse yourself in a user-friendly interface that offers seamless navigation and captivating visuals, making your cosmic exploration an unforgettable experience.</li>
+  
+  <li><strong>Informative Content:</strong> Gain insights into each galaxy's composition, size, distance from Earth, and other fascinating details curated by astronomers and space enthusiasts.</li>
+</ul>
+
+      </div>
+  </div>
+
+    </main>
+
+    <!--==================== SCROLL TOP ====================-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets\js\swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets\js\script.js"></script>
+
+  </body>
+</html>
